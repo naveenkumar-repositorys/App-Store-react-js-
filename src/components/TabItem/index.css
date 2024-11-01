@@ -1,0 +1,35 @@
+/* Write your CSS here */
+
+.listItemCon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 17%;
+  height: 70px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.btnEle {
+  width: 180px;
+  height: 40px;
+  color: #7b8794;
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.hozLineEl {
+  width: 180px;
+  height: 5px;
+  background-color: #7b8794;
+}
+
+.activatedTabId {
+  color: #2563eb;
+}
+.activatedHorzline {
+  background-color: #2563eb;
+}

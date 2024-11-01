@@ -1,0 +1,25 @@
+/* Write your CSS here */
+
+.listItemContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 160px;
+  height: 200px;
+  background-color: #ffff;
+  border-radius: 12px;
+}
+.appImgEl {
+  width: 105px;
+  height: 105px;
+  margin-top: 10px;
+}
+.appHeadEl {
+  width: 80%;
+  height: 60px;
+  color: #1e293b;
+  font-family: 'Bree Serif';
+  font-size: 20px;
+  text-align: center;
+}
